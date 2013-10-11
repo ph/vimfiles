@@ -83,3 +83,6 @@ vmap <C-M-Down> ]egv
 " tagbar
 nmap <F8> :TagbarToggle<CR>
 set pastetoggle=<F3>
+
+nmap <Leader>h <Plug>ToggleAutoCloseMappings<CR>
+

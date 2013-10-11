@@ -53,9 +53,10 @@ set winheight=999
 set t_Co=256 " force 256 colors in vim terminal 
 " colorscheme monokai
 " colorscheme Tomorrow-Night
-set background=dark     " you can use `dark` or `light` as your background
+" set background=dark     " you can use `dark` or `light` as your background
 syntax on
-color mango"
+" color mango"
+colorscheme mango_ph
 
 " path
 set laststatus=2

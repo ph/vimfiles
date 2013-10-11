@@ -18,16 +18,16 @@
   endif
   if bgcolor == "dark"
     let Black = "guifg=#585858 guibg=NONE gui=NONE ctermfg=240 ctermbg=NONE cterm=NONE"
-    let Orange = "guifg=#ffaf00 guibg=NONE gui=NONE ctermfg=214 ctermbg=NONE cterm=NONE"
-    let Peach = "guifg=#ffd787 guibg=NONE gui=NONE ctermfg=222 ctermbg=NONE cterm=NONE"
+    let Orange = "guifg=#ffaf00 guibg=NONE gui=NONE ctermfg=202 ctermbg=NONE cterm=NONE"
+    let Peach = "guifg=#ffd787 guibg=NONE gui=NONE ctermfg=033 ctermbg=NONE cterm=NONE"
     let Red = "guifg=#ff5f5f guibg=NONE gui=NONE ctermfg=203 ctermbg=NONE cterm=NONE"
   endif
 
   let Green = "guifg=#87af5f guibg=NONE gui=NONE ctermfg=107 ctermbg=NONE cterm=NONE"
   let Gray = "guifg=#bcbcbc guibg=NONE gui=NONE ctermfg=250 ctermbg=NONE cterm=NONE"
   let Blue = "guifg=#5fafdf guibg=NONE gui=NONE ctermfg=74 ctermbg=NONE cterm=NONE"
-  let Pink = "guifg=#ff5faf guibg=NONE gui=NONE ctermfg=205 ctermbg=NONE cterm=NONE"
-  let Purple = "guifg=#af87ff guibg=NONE gui=NONE ctermfg=141 ctermbg=NONE cterm=NONE"
+  let Pink = "guifg=#ff5faf guibg=NONE gui=NONE ctermfg=162 ctermbg=NONE cterm=NONE"
+  let Purple = "guifg=#af87ff guibg=NONE gui=NONE ctermfg=166 ctermbg=NONE cterm=NONE"
   let Silver = "guifg=#8a8a8a guibg=NONE gui=NONE ctermfg=245 ctermbg=NONE cterm=NONE"
   let White = "guifg=#eeeeee guibg=NONE gui=NONE ctermfg=255 ctermbg=NONE cterm=NONE"
 " }}}
@@ -106,12 +106,12 @@
     exe "hi SpecialComment "  .Pink
     exe "hi Statement "       .Peach
     exe "hi StorageClass "    .Orange
-    exe "hi String "          .Green
     exe "hi Structure "       .Orange
     exe "hi Tag "             .White
     exe "hi Type "            .Orange
     exe "hi TypeDef "         .Orange
 
+    hi String  guifg=#87af5f guibg=NONE gui=NONE ctermfg=047 ctermbg=237 cterm=NONE
     hi CursorLine   guifg=NONE      guibg=#1c1c1c   gui=NONE      ctermfg=NONE      ctermbg=234       cterm=NONE
     hi ColorColumn  guifg=#ff0000   guibg=#1c1c1c   gui=NONE      ctermfg=203       ctermbg=234       cterm=NONE
   endif

@@ -36,3 +36,17 @@ let g:tagbar_type_coffee = {
 " powerline
 let g:Powerline_symbols = 'fancy'
 
+
+" syntastic
+set statusline=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+let g:syntastic_check_on_open=1
+let g:syntastic_javascript_jshint_conf = "--asi --laxcomma"
+let g:tern_map_keys=1
+let g:is_show_argument_hints_enabled='on_hold'
+
+" smarter vim function in javascript
+inoremap {<cr> {<cr>}<c-o><s-o>
+inoremap [<cr> [<cr>]<c-o><s-o>
+inoremap (<cr> (<cr>)<c-o><s-o>

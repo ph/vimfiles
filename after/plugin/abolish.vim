@@ -8,3 +8,5 @@ Abolish isntall install
 Abolish debuger debugger
 Abolish boexed boxed
 Abolish OpenStruck OpenStruct
+Abolish geoocoords geocoords
+Abolish geoocoord geocoord

@@ -48,6 +48,7 @@ function! RunTests(filename)
     end
 endfunction
 
+
 function! SetTestFile()
     " Set the spec file that tests will be run for.
     let t:grb_test_file=@%
